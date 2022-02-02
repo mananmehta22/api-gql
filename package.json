@@ -1,0 +1,18 @@
+{
+  "name": "api-gql",
+  "version": "1.0.0",
+  "description": "graphql to fetch spacex api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Manan Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.0.0-rc.1",
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
