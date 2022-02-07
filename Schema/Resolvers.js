@@ -15,7 +15,7 @@ const resolvers = {
           console.log(err)
         })
     },
-    getPast(root ,args) {
+    getPast() {
       fetch(`https://api.spacexdata.com/v3/launches/past`)
         .then((response) => response.json())
         .then((data) => {
